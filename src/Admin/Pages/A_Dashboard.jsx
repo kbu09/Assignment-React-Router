@@ -41,11 +41,11 @@ function A_Dashboard() {
 
 
                                 <table className="table">
-                                    <thead className="table-dark">
+                                    <thead className="table-info">
                                         <tr>
-                                            <th>Categories ID</th>
-                                            <th>Categories Name</th>
-                                            <th>Categories Image</th>
+                                            <td> ID</td>
+                                            <td> Name</td>
+                                            <td> Image</td>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -53,8 +53,8 @@ function A_Dashboard() {
                                             data && data.map((value) => {
                                                 return (
                                                     <tr>
-                                                        <td>{value.id}</td>
-                                                        <td>{value.title}</td>
+                                                        <td><b>{value.id}</b></td>
+                                                        <td><b>{value.title}</b></td>
                                                         <td> <img src={value.url} alt="" width={50} height={50} /></td>
                                                         <td>
                                                         </td>
