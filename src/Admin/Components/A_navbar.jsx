@@ -48,7 +48,7 @@ function A_navbar() {
                         <div className="col-md-12 col-sm-12 col-lg-12">
                             <div className="navbar-collapse collapse ">
                                 <ul id="menu-top" className="nav">
-                                    <li><NavLink to="/lazyloading" active >DASHBOARD</NavLink></li>
+                                    <li><NavLink to="/a_dashborad" active >DASHBOARD</NavLink></li>
                                     <li>
                                         <NavLink href="#" className="dropdown-toggle" id="ddlmenuItem" data-toggle="dropdown">Employee
                                         </NavLink>
